@@ -1,0 +1,23 @@
+Narrative source: Gemini API
+Status: success
+Tokens used: 1023
+
+Situation
+Mamaearth's regional operations and finance teams evaluated financial and order performance, recording a raw total revenue of 99860.20 INR. After reconciling duplicate transactions, the duplicate reconciliation delta stands at 2501.90 INR, bringing the cleaned total revenue to 97358.30 INR. Following the exclusion of quantity outliers that previously inflated January 2026, the true peak month is identified as March 2026, generating a revenue of 20318.90 INR (compared to January 2026's apparent revenue of 29582.10 INR and corrected revenue of 11637.10 INR).
+
+Complication
+Operational margins face pressure from high return rates across specific payment methods and segments. Overall, the COD return rate is 44.40%, compared to 18.90% for UPI and 14.70% for CARD. Risk is heavily concentrated geographically and transactionally; the highest-risk segment return rate reaches 54.50% for COD orders originating from Tier 2 cities. These elevated return rates risk eroding the cleaned total revenue of 97358.30 INR through increased reverse logistics and processing costs.
+
+Resolution
+To protect profitability without restricting payment choices prematurely, regional operations and finance must investigate and test targeted interventions for high-risk cohorts. We recommend piloting customer-intent verification flows and delivery confirmation checkpoints specifically for COD transactions in Tier 2 cities, where the return rate peaks at 54.50%. Additionally, finance should closely monitor the drivers behind the COD return rate of 44.40% alongside the baseline return rates of CARD (14.70%) and UPI (18.90%) to optimize working capital ahead of peak performance periods like March 2026 (20318.90 INR).
+
+SCR section check: PASS
+
+PASS: Cleaned revenue 97358.3
+PASS: COD return rate 44.4
+PASS: Highest-risk segment return rate 54.5
+PASS: Duplicate reconciliation delta 2501.9
+PASS: True peak month revenue 20318.9
+PASS: True peak month 2026-03
+
+Numeric accuracy check: PASS
