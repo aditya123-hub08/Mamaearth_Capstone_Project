@@ -1,0 +1,10 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local environment and API keys
+.env
+
+# macOS files
+.DS_Store
